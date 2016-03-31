@@ -1,0 +1,5 @@
+name: LegendSector
+author: OtekPlay
+main: pl.otekplay.sectors.Main
+version: 0.1 ALPHA
+description: Plugin zarzadzajacy sektorami na serwerze.
