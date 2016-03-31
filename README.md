@@ -3,6 +3,6 @@
 Tworcy sektorow:
 
 - Otekplay
-- Kamcio
+- Kamcio(Pomogl mocno z systemem netty, dziekuje!)
 - Oldis
 - Xtremek
