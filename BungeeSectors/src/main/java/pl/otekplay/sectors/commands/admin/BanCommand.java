@@ -21,7 +21,7 @@ public class BanCommand extends Command {
         CommandUtil.registerVariablesCommand(name,aliases);
         this.type = type;
     }
-//OTEK LUBI W DUPE
+
 
     @Override
     public void execute(CommandSender commandSender, String[] args) {
