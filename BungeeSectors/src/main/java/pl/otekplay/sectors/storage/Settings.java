@@ -211,7 +211,6 @@ public class Settings {
             }
             ConfigurationProvider provider = YamlConfiguration.getProvider(YamlConfiguration.class);
             yaml = provider.load(file);
-            yaml.set("Whitelist", Arrays.asList("Otekplay", "Raxon", "Oldis"));
             whitelist = new ArrayList<>();
             whitelist.addAll(yaml.getStringList("Whitelist"));
             provider.save(yaml,file);
