@@ -25,6 +25,6 @@ public class UserDropCommandPacket extends Packet {
 
     @Override
     public void handle(PacketHandler handler) {
-handler.handle(this);
+    handler.handle(this);
     }
 }
